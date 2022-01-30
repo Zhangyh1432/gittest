@@ -5,7 +5,7 @@ from torch.utils.data import Dataset, DataLoader
 from torchvision import transforms
 from PIL import Image
 import torchvision
-
+#import torch
 class Pokemon(Dataset):
     def __init__(self, root, resize, mode):
         super(Pokemon, self).__init__()
